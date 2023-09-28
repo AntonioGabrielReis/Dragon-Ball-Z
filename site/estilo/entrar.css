@@ -66,13 +66,74 @@ menu > ul > li > a:hover{
 
 /*Primeira parte*/
 
-div#sayajin{
-    margin: 5px;
+div#z{
+    margin: 8px;
+    margin-top: 8px;
+    text-align: justify;
+}
+
+div#z > p {
+    margin-bottom: 8px;
     margin-top: 8px;
 }
 
 div#imgsayajin{
     background:  url(../imagens/sayajin.png) no-repeat top;
+    background-size: contain;
+    height: 100px;
+
+}
+
+div#imgsayajin2{
+    background:  url(../imagens/editsayajin.png) no-repeat top;
+    background-size: contain;
+    height: 100px;
+
+}
+
+/*--------------------------------------------------------------------*/
+
+div#imgfreeza{
+    background:  url(../imagens/freeza.jpg) no-repeat top;
+    background-size: contain;
+    height: 100px;
+
+}
+
+div#imgsfreeza2{
+    background:  url(../imagens/editfreeza.png) no-repeat top;
+    background-size: contain;
+    height: 100px;
+
+}
+
+/*--------------------------------------------------------------------*/
+
+div#imggarlic{
+    background:  url(../imagens/garlic.jpg) no-repeat top;
+    background-size: contain;
+    height: 100px;
+
+}
+
+div#imggarlic2{
+    background:  url(../imagens/editgarlic.png) no-repeat top;
+    background-size: contain;
+    height: 100px;
+
+}
+
+/*--------------------------------------------------------------------*/
+
+div#imgandroid{
+    background:  url(../imagens/android.jpg) no-repeat top;
+    background-size: contain;
+    height: 100px;
+
+}
+
+div#imgandroid2{
+    background:  url(../imagens/editandroid.png) no-repeat top;
     background-size: contain;
     height: 100px;
 
