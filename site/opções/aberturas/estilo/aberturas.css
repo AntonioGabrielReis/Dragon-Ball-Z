@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Imagem inicial*/
+
+div#imagem{
+    background: rgb(255, 102, 0) url(../imagens/capa.jpg) no-repeat center center;
+    background-size: cover;
+    height: 130px;
+}
+
+/*Menu inicial*/
+
+div#opcoes{
+     text-align: center;
+     background-color: #5965AF;
+     padding: 5px;
+     border-radius: 0px 0px 8px 8px;
+}
+
+div#opcoes > h1 {
+    margin: 20px;
+}
+
+
+i#select {
+    background-color: #498BA6;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align:center ;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#select:hover{
+    background-color: #5cafcf;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #498BA6;
+    color: rgb(0, 0, 0);
+    border-top: 2px solid #356477;
+}
+
+menu > ul > li > a:hover{
+    background-color:#5cafcf;
+}
