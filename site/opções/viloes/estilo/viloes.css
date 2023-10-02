@@ -68,11 +68,16 @@ menu > ul > li > a:hover{
 
 
 /*------------------------------------------------------------------*/
+p{
+    text-indent: 22px;
 
+}
 
 main > p {
     text-align: justify;
     margin: 10px;
+    text-indent: 22px;
+
 }
 
 div#editbarra {

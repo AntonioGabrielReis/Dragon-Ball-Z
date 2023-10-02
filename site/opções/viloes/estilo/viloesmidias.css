@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 650px) and (max-width: 992px) {
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    div#imagem{
+        background: #F8F548 url(../imagens/capa2.jpg) no-repeat top center center;
+        background-size: cover;
+        height: 180px;
+    }
+
+    div#opcoes > h1 {
+        font-size: 2.5em;
+
+    }
+    div#nome > h2 {
+        font-size: 2em;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        background-image: linear-gradient(to right, #7b9c03, white);
+    }
+
+    p {
+        font-size: 1.4em;
+        padding-left: 100px;
+        padding-right: 110px;
+    }
+
+    div#personagens > img {
+        width: 300px; 
+        padding-right: 100px;
+    }
+
+    div#editbarra {
+        background:  url(../imagens/editviloes.png) no-repeat center center;
+        background-size: contain;
+        height: 180px;
+    }
+    
+}
