@@ -9,7 +9,7 @@
 /*Imagem inicial*/
 
 div#imagem{
-    background: rgb(255, 102, 0) url(../imagens/capa2.jpg) no-repeat center top;
+    background: rgb(255, 102, 0) url(../imagens/definitiva.jpg) no-repeat center center;
     background-size: cover;
     height: 130px;
     

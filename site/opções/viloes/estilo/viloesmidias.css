@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 992px) {
     div#imagem{
-        background: #F8F548 url(../imagens/capa2.jpg) no-repeat top center center;
+        background: #F8F548 url(../imagens/definitiva.jpg) no-repeat  center center;
         background-size: cover;
         height: 180px;
     }
