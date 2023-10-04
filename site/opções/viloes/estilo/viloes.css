@@ -35,8 +35,9 @@ i#select {
     display: block;
     color:white;
     text-align:center ;
-    padding: 10px;
+    padding: 1px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 i#select:hover{
@@ -60,6 +61,7 @@ menu > ul > li > a {
     background-color: #474457;
     color: white;
     border-top: 2px solid #363442;
+    border-radius: 5px;
 }
 
 menu > ul > li > a:hover{
@@ -113,4 +115,40 @@ div#personagens > img {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 0px 10px 0px 10px;
+}
+
+/*------------------------------------------------------------------*/
+
+.hamburger{
+    width: 50px;
+    height: 25px;
+    position: relative;
+    margin: 10px auto;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.hamburger span{
+    display: block;
+    position: absolute;
+    height: 7px;
+    width: 90%;
+    background: black;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.hamburger span:nth-child(1){
+    top: 0px;
+}
+
+.hamburger span:nth-child(2), .hamburger span:nth-child(3){
+    top: 10px;
+}
+
+.hamburger span:nth-child(4){
+    top: 20px;
 }

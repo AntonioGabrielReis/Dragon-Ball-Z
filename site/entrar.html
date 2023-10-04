@@ -15,7 +15,12 @@
             </div>
             <div id="opcoes">
                 <h1>Dragon ball Z Sagas</h1>
-                <i id="select" class="material-symbols-outlined" onclick="clickMenu()"> Menu </i>
+                <i id="select" onclick="clickMenu()"><div class="hamburger closet ">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div></i>
                 <menu id="itens">
                     <ul>
                         <li><a href="opções/guerreirosz/guerreirosz.html">Guerreiros Z</a></li>
@@ -94,6 +99,7 @@
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque reprehenderit id omnis sunt officiis blanditiis voluptatem fugit rem? Dolor voluptas fuga numquam earum perspiciatis similique impedit voluptatibus nobis, natus laboriosam.</p>
                 </div>
+                
             </article>
 
         </main>
@@ -106,6 +112,13 @@
                 itens.style.display= 'block'
             }
         }
+        (function clickMenu () {
+            const menu = document.querySelector('.hamburger');
+
+            menu.onclick = () => {
+                menu.classList.toggle('open');
+            }
+        })();
     </script>
 </body>
 </html>
