@@ -11,7 +11,7 @@
 div#imagem{
     background: rgb(255, 102, 0) url(../imagens/capa.jpg) no-repeat center center;
     background-size: cover;
-    height: 120px;
+    height: 130px;
 }
 
 /*Menu inicial*/
@@ -187,7 +187,7 @@ div#imgboo2{
     position: absolute;
     height: 7px;
     width: 90%;
-    background: #dd2952;
+    background: rgb(146, 99, 29);
     border-radius: 9px;
     opacity: 1;
     left: 0;

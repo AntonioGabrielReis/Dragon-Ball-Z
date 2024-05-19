@@ -9,7 +9,7 @@
 /*Imagem inicial*/
 
 div#imagem{
-    background: rgb(255, 102, 0) url(../imagens/definitiva.jpg) no-repeat center center;
+    background: #7b9c03 url(../imagens/definitiva.jpg) no-repeat center center;
     background-size: cover;
     height: 130px;
     
@@ -29,6 +29,9 @@ div#opcoes > h1 {
     text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.637);
 }
 
+div#nome > h2{
+    background-image: linear-gradient(to right, #7b9c03, white);
+}
 
 i#select {
     background-color: #474457;
